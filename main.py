@@ -208,6 +208,6 @@ if __name__ == "__main__":
         # ecdn是全球加速服务，与CDN不同，本账号没有开通该功能
         # run_config_ecdn(SECRETID, SECRETKEY, my_domain, cert_id)
 
-        # 对腾讯云EO的支持
-        if config.ZONE_ID:
-            run_config_teo(SECRETID, SECRETKEY, config.ZONE_ID, my_domain, cert_id)
+        # # 对腾讯云EO的支持
+        # if config.ZONE_ID:
+        #     run_config_teo(SECRETID, SECRETKEY, config.ZONE_ID, my_domain, cert_id)
