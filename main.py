@@ -12,7 +12,7 @@ def run_config_ssl(id, key, cer_file, key_file):
         # fullchain.cer
         "cer": tools.read_file(cer_file),
         "key": tools.read_file(key_file),
-        "type": "SVR"
+        "type": "CA"
     }
     ssl_client = qssl.get_ssl_client_instance(id, key)
     """
