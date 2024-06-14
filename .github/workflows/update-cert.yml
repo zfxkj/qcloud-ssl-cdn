@@ -1,6 +1,9 @@
 name: Update Cert
 
-on:
+on:  
+  push:
+    branches:
+      - main
   #schedule:
   #  - cron: "0 10 1 * *"
   workflow_dispatch:
