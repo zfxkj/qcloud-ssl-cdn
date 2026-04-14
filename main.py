@@ -1,7 +1,6 @@
 from api import cdn, ecdn, qssl, tools, teo
 import config
 
-
 def run_config_ssl(id, key, cer_file, key_file):
     '''上传SSl证书到腾讯云SSL证书管理，返回新证书的id
     '''
