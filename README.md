@@ -96,6 +96,6 @@ acme.sh --issue  -d "whuzfb.cn" -d "*.whuzfb.cn" --dns dns_dp
 
 `teo.get_teo_zones_list(client)`：获取边缘安全加速平台所有的加速区域`zoneID`列表
 `teo.get_teo_domains_list(client, zone_id)`：获取指定加速区域的域名列表
-`teo.update_teo_ssl(client, zoneid, hostname, cert_id)`：为指定域名的加速区域的对应域名更换SSL证书
+`teo.update_teo_ssl(client, zoneid, hostname, cert_id)`：为指定域名的加速区域的对应域名更换SSL证书。
 
 
